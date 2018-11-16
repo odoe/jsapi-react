@@ -1,14 +1,14 @@
 {
-  "name": "jsapi-react-updated",
+  "name": "jsapi-react",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample application using the ArcGIS API for JavaScript with React",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --mode development --open",
     "build": "webpack --mode production",
     "serve": "webpack-dev-server --history-api-fallback --mode production --open --https --compress"
   },
-  "keywords": [],
+  "keywords": ["react", "arcgis", "gis", "geodev", "spatial"],
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
