@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": "entry",
+      "targets": "> 0.25%, not ie 11, not dead, not op_mini all",
+      "modules":"amd"
+    }],
+      "@babel/preset-react"
+  ],
+  "plugins": [
+      "@babel/proposal-class-properties",
+      "@babel/proposal-object-rest-spread",
+      "@babel/plugin-syntax-dynamic-import"
+  ]
+}
