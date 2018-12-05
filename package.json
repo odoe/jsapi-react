@@ -19,7 +19,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@arcgis/webpack-plugin": "~4.9.0",
-    "arcgis-js-api": "http://jscore.esri.com/people/rene/arcgis-js-api.tgz",
     "react": "^16.7.0-alpha.0 - next",
     "react-dom": "^16.7.0-alpha.0 - next",
     "styled-components": "^4.1.1"
