@@ -1,7 +1,7 @@
 import "@dojo/framework/shim/Promise";
 import esriConfig from "esri/config";
 
-const DEFAULT_WORKER_URL = "https://js.arcgis.com/4.9/";
+const DEFAULT_WORKER_URL = "https://js.arcgis.com/4.10/";
 const DEFAULT_LOADER_URL = `${DEFAULT_WORKER_URL}dojo/dojo-lite.js`;
 
 esriConfig.workers.loaderUrl = DEFAULT_LOADER_URL;
